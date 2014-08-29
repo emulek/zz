@@ -1,0 +1,10 @@
+./src/encoder.cpp
+./src/getopt.cpp
+./src/huffman.cpp
+./src/main.cpp
+./src/matrix.cpp
+./src/rbtree.cpp
+./src/rnd.cpp
+./src/rs.cpp
+./src/zfile.cpp
+./src/zstring.cpp

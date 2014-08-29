@@ -1,0 +1,30 @@
+[OPTIONS]
+Auto Index=Yes
+Binary TOC=Yes
+Compatibility=1.1 or later
+Compiled file=zz.chm
+Contents file=zz.hhc
+Default Window=Main
+Default topic=index.html
+Display compile progress=Yes
+Full-text search=Yes
+Index file=zz.hhk
+Language=0x0419 Russian
+Title=zz
+Enhanced decompilation=No
+
+[WINDOWS]
+Main="zz","zz.hhc","zz.hhk","index.html","index.html",,,,,0x32520,,0x60300E,,,,,,,,0
+
+
+[FILES]
+index.html
+overview.html
+chapter1.html
+matrix.html
+arithm.html
+chapter2.html
+chapter3.html
+ch03s02.html
+ch03s03.html
+ch03s04.html

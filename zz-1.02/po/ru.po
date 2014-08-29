@@ -1,0 +1,317 @@
+# pot file
+# Copyright (C) 2014 drBatty
+# This file is distributed under the same license as the zz package.
+# drBatty <emulek.bx@gmail.com>, 2014.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: zz 1.01\n"
+"Report-Msgid-Bugs-To: emulek.bx@gmail.com\n"
+"POT-Creation-Date: 2014-08-29 19:15+0400\n"
+"PO-Revision-Date: 2014-08-02 14:22+0400\n"
+"Last-Translator: drBatty <emulek.bx@gmail.com>\n"
+"Language-Team: Russia\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+
+#: src/encoder.cpp:78
+#, c-format
+msgid "Encoder::encode_part() source RSD: "
+msgstr ""
+
+#: src/encoder.cpp:84
+#, c-format
+msgid "Encoder::encode_part() encode RSD: "
+msgstr ""
+
+#: src/encoder.cpp:143
+msgid "Error block_size<"
+msgstr ""
+
+#: src/encoder.cpp:229
+msgid "Can't init SHA1"
+msgstr "Невозможно инициализировать SHA1"
+
+#: src/encoder.cpp:239 src/encoder.cpp:249
+#, fuzzy
+msgid "Can't update SHA1"
+msgstr "Невозможно обновить SHA1 для данных"
+
+#: src/encoder.cpp:260
+msgid "Can't final SHA1"
+msgstr "Невозможно записать SHA1"
+
+#: src/encoder.cpp:272
+#, c-format
+msgid "Error vector: "
+msgstr "Синдром ошибки: "
+
+#: src/encoder.cpp:290
+#, c-format
+msgid "encode data: "
+msgstr "encode data: "
+
+#: src/encoder.cpp:296
+#, c-format
+msgid "decode data: "
+msgstr "decode data: "
+
+#: src/encoder.cpp:334 src/encoder.cpp:440 src/zfile.cpp:90
+msgid "Unexpected end of file '"
+msgstr ""
+
+#: src/encoder.cpp:372
+#, fuzzy
+msgid "Error CRC32 in part #"
+msgstr "Неверная CRC32 в блоке "
+
+#: src/encoder.cpp:429
+#, fuzzy
+msgid "Error name SHA1 in block "
+msgstr "Неверная CRC32 в блоке "
+
+#: src/encoder.cpp:458
+#, fuzzy
+msgid "Error SHA1 in block "
+msgstr "Неверная CRC32 в блоке "
+
+#: src/encoder.cpp:465
+msgid "Expected newer version of "
+msgstr ""
+
+#: src/encoder.cpp:466
+#, fuzzy
+msgid " in block "
+msgstr ") для блока '"
+
+#: src/encoder.cpp:500
+msgid "Load "
+msgstr "Загрузка "
+
+#: src/encoder.cpp:502
+msgid " block(s) of "
+msgstr " блок(ов) из "
+
+#: src/getopt.cpp:190 src/getopt.cpp:220
+#, fuzzy
+msgid "Invalid argument for option"
+msgstr "Ошибочный аргумент"
+
+#: src/getopt.cpp:202
+#, c-format
+msgid "%sERROR%s\n"
+msgstr "%sНЁХ%s\n"
+
+#: src/getopt.cpp:231
+#, c-format
+msgid "Usage: %s [OPTION]... FILES...\n"
+msgstr "Использование: %s [ОПЦИИ]... ФАЙЛЫ...\n"
+
+#: src/getopt.cpp:232
+#, c-format
+msgid "Options:\n"
+msgstr "Опции:\n"
+
+#: src/getopt.cpp:233
+#, c-format
+msgid ""
+"\t-B,\t--block-size=BLK_SIZE\t\t\tSet block size for encode (default %d "
+"bytes).\n"
+msgstr ""
+
+#: src/getopt.cpp:234
+#, c-format
+msgid ""
+"\t-c,\t--calculate=EXPRESSIONS\t\t\tCalculate EXPRESSIONS (for GF(%u)).\n"
+msgstr "\t-c,\t--calculate=ВЫРАЖЕНИЕ\t\t\tВычисление ВЫРАЖЕНИЕ (для GF(%u)).\n"
+
+#: src/getopt.cpp:235
+#, c-format
+msgid "\t-d,\t--decode\t\t\t\tDecode file(s).\n"
+msgstr "\t-d,\t--decode\t\t\t\tДекодирование файла(файлов).\n"
+
+#: src/getopt.cpp:236
+#, c-format
+msgid "\t-h,\t--help\t\t\t\t\tThis help.\n"
+msgstr "\t-h,\t--help\t\t\t\t\tЭта справка.\n"
+
+#: src/getopt.cpp:237
+#, c-format
+msgid ""
+"\t-r,\t--repository=REPOSITORY\t\t\tSave/Load encode files to/from "
+"REPOSITORY.\n"
+msgstr ""
+"\t-r,\t--repository=РЕПОЗИТОРИЙ\t\tСохранение/Загрузка закодированных файлов "
+"в/из РЕПОЗИТОРИЙ.\n"
+
+#: src/getopt.cpp:238
+#, c-format
+msgid "\t-t,\t--target-dir=TARGET\t\t\tDecode file(s) to TARGET directory.\n"
+msgstr "\t-t,\t--target-dir=ЦЕЛЬ\t\t\tДекодирование файлов в ЦЕЛЬ.\n"
+
+#: src/getopt.cpp:239
+#, c-format
+msgid ""
+"\t-v,\t--verbose[=VERBOSITY_LEVEL]\t\tVerbose output "
+"(VERBOSITY_LEVEL={0..9}).\n"
+msgstr ""
+"\t-v,\t--verbose[=VERBOSITY_LEVEL]\t\tПодробный вывод "
+"(VERBOSITY_LEVEL={0..9}).\n"
+
+#: src/getopt.cpp:240
+#, c-format
+msgid "\t-V,\t--version\t\t\t\tVersion.\n"
+msgstr "\t-V,\t--version\t\t\t\tВерсия.\n"
+
+#: src/getopt.cpp:254
+#, c-format
+msgid ""
+"%s version %s (HG_REVISION: %s)\n"
+"\n"
+msgstr ""
+"%s версия %s (HG_REVISION: %s)\n"
+"\n"
+
+#: src/getopt.cpp:255
+#, c-format
+msgid ""
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
+"html>.\n"
+msgstr ""
+"Лицензия GPLv3+: GNU GPL версия 3 или новее <http://gnu.org/licenses/gpl."
+"html>.\n"
+
+#: src/getopt.cpp:256
+#, c-format
+msgid "This is free software: you are free to change and redistribute it.\n"
+msgstr "Это свободное ПО: вы можете продавать и распространять его.\n"
+
+#: src/getopt.cpp:257
+#, c-format
+msgid ""
+"There is NO WARRANTY, to the extent permitted by law.\n"
+"\n"
+msgstr "Нет НИКАКИХ ГАРАНТИЙ до степени, разрешённой законом.\n"
+
+#: src/getopt.cpp:258
+#, c-format
+msgid "Written by drBatty <%s>\n"
+msgstr "Автор drBatty <%s>\n"
+
+#: src/getopt.cpp:263 src/getopt.cpp:268
+msgid "Invalid argument"
+msgstr "Ошибочный аргумент"
+
+#: src/getopt.cpp:267
+#, c-format
+msgid "?? getopt returned character code 0%o ??\n"
+msgstr "?? непонятная хрень возвращена getopt: 0%o ??\n"
+
+#: src/getopt.cpp:281
+#, c-format
+msgid "-- Command line parsing OK.\n"
+msgstr "-- Успешный разбор командной строки.\n"
+
+#: src/getopt.cpp:282
+#, c-format
+msgid "myname: %s (VERSION: '%s' version_hi: %u, version_low: %u)\n"
+msgstr "имя прораммы: %s (VERSION: '%s' version_hi: %u, version_low: %u)\n"
+
+#: src/getopt.cpp:284
+#, c-format
+msgid "HG_REVISION: %s\n"
+msgstr "HG_REVISION: %s\n"
+
+#: src/getopt.cpp:285
+#, c-format
+msgid "is_decode: %s\n"
+msgstr "is_decode: %s\n"
+
+#: src/getopt.cpp:286
+#, c-format
+msgid "verbosity level: %d\n"
+msgstr "подробность вывода: %d\n"
+
+#: src/getopt.cpp:287
+#, c-format
+msgid "repository directory: '%s'\n"
+msgstr "репозиторий: '%s'\n"
+
+#: src/getopt.cpp:290
+#, c-format
+msgid "target directory: '%s'\n"
+msgstr "целевой каталог: '%s'\n"
+
+#: src/getopt.cpp:294
+#, c-format
+msgid "block size: %u\n"
+msgstr ""
+
+#: src/getopt.cpp:298
+#, c-format
+msgid "file #%d: '%s'\n"
+msgstr "файл №%d: '%s'\n"
+
+#: src/getopt.cpp:299
+#, c-format
+msgid "--\n"
+msgstr "--\n"
+
+#: src/getopt.cpp:314
+#, c-format
+msgid "%s: '%s' not aviable: %s"
+msgstr "%s: '%s' недоступен: %s"
+
+#: src/main.cpp:22
+#, c-format
+msgid "no files\n"
+msgstr "файлы не заданы\n"
+
+#: src/main.cpp:36
+#, c-format
+msgid "---------- '%s' encode OK\n"
+msgstr "--------- '%s' кодирование завершено\n"
+
+#: src/main.cpp:43
+#, c-format
+msgid "---------- '%s' decode OK\n"
+msgstr "---------- '%s' декодирование завершено\n"
+
+#: src/zfile.cpp:187
+msgid "undefined time\n"
+msgstr "время неопределено\n"
+
+#~ msgid "Can't update SHA1 for header"
+#~ msgstr "Невозможно обновить SHA1 для заголовка"
+
+#~ msgid "Can't update SHA1 for data"
+#~ msgstr "Невозможно обновить SHA1 для данных"
+
+#~ msgid "Error sha1 ("
+#~ msgstr "Ошибка sha1 ("
+
+#~ msgid ") for file '"
+#~ msgstr ") для файла '"
+
+#~ msgid "Invalid file lenght for file '"
+#~ msgstr "Неверная длинна файла для '"
+
+#~ msgid "Invalid desc_file"
+#~ msgstr "Неправильный desc_file"
+
+#, fuzzy
+#~ msgid "Invalid option"
+#~ msgstr "Ошибочный аргумент"
+
+#~ msgid "Invalid code_n/code_k"
+#~ msgstr "Неправилные code_n/code_k"
+
+#~ msgid "Invalid headers sha1("
+#~ msgstr "Ошибка sha1 в заголовке("
+
+#~ msgid "Invalid desc_crc32"
+#~ msgstr "Неправильная desc_crc32"
